@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:  url("https://www.tech.jfn.ac.lk/wp-content/uploads/2021/07/Students-hostel.jpg");
+    background-position: center;
+    position: relative;
+    background-size:  cover;   
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+   
+  
+    
+       
+    text-align: left;
+    padding: 0 20px;
+
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+} 
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 23px;
+}
+.nav-links ul li::after{
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background: #fd9d30;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 90%;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 55px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding:12px 34px;
+    background:transparent;
+    font-size: 20px;
+    position:relative;
+    cursor:pointer;
+    border-radius: 13px;
+ }
+ .hero-btn:hover{
+    border: 2px solid #ffffff ;
+    background: #fd9d30;
+    transition: 1s;    
+}
+nav .fa{
+    display: none;
+}
+
+@media (max-width:700px) {
+    .text-box h1{
+        font-size: 20px;
+    }
+    ,nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #6a71da;
+        height: 100vh;
+        width: 150px;
+        top:0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+
+    }
+    nav .fa{
+        display: block;
+        color: aqua;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul
+}
+/* hostal details----------*/
+.hostel{
+        width: 100%;
+        margin: outo;
+        text-align: center;
+        padding-top: 100px;
+    }
+    h1{font-size: 36px;
+        font-weight: 60;
+    
+    }
+    p{
+        color: #062566;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        padding: 10px;
+    }
+    
+
+
+
+.course{
+    width: 100%;
+    margin: outo;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{font-size: 36px;
+    font-weight: 0;
+
+}
+p{
+    color: #062566;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+.footerNav{
+    color: #f3eeee;
+    transition: 0.5;
+}
+.footerNav{
+    width: 100%;
+    padding: 15px 15px 15px;
+    margin: 0px 0;
+    
+}
+.footerNav ul{
+    display: flex;
+    justify-content: left;
+}
+
+
+.footerNav{
+    background-color: #051d5c;
+    margin: 0px 0;
+}
+.footerNav{
+    flex: 1;
+    text-align: center;
+}
+.footerNav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 7px 12px;
+    position: relative;
+}
+.footerNav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 23px;
+}
+.footerNav ul li::after{
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background: #fd9d30;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.footerNav ul li:hover::after{
+    width: 100%;
+}
+.contact{
+    
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 5px 10px 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
